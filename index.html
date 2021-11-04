@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trong Bao Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="DeveloperLogo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Technical Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My projects </a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Trong Bao</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Computer Science Major</p>
+            <img src="TrongPicture.jpg" alt="a picture of Trong smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Technical Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Database + Visualization</h3>
+                    <p>Microsoft Dataverse <br>Tableau</p>
+                </div> <!-- / service -->
+                <div class="service">
+                    <h3>Development + Design</h3>
+                    <p>Java <br>Python <br>R <br>HTML & CSS </p>
+                </div> <!-- / service -->
+                <div class="service">
+                    <h3>Information Technology</h3>
+                    <p>Active Directory <br>SCCM <br>Service Now </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About me</h2>
+           <p class="section__subtitle section__subtitle--about">Computer Science Undergraduate <br>Central College</p>
+           
+           <div class="about-me__body">
+               <p>
+                When I was a child, I was absolutely attracted by computer softwares and later it was programming. I also like studying maths and physics, but I chose computing as my career because of its opening, modernity and lots of challenges. I will be graduating in December of 2022 with a Computer Science Degree along with a Math minor.
+            </p>
+               <p>
+                While maintaining a strong grasp on my educational pathway, I devote a significant amount of time and effort to work on my personal projects and to have hands-on experience in the industry. I am currently working for Central College's IT Department to build apps using PowerApps and Power Automate. One of the apps that I built for the school was the Onboarding App. Upon graduation, I want to pursue my career as a Software Developer because I believe I can utilise my skills to create useful softwares and I also like the aspects of working with other people to build softwares.
+               </p>
+           </div>
+           
+           <img src="vertical pic.jpg" alt="Trong's photo" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of works</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio covid 19 -->
+                <a href="https://github.com/trongbao0208/SQL-Covid_19" class="portfolio__item">
+                    <img src="COVID19.jpg" alt="" class="portfolio__img">
+                </a>
+                 
+                
+               
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:trongbao0208@gmail.com" class="footer__link">trongbao0208@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/trongbao0208">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/trong-bao-89a0a519a/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/linhmiu12">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
